@@ -29,6 +29,11 @@ header {
     height: auto; /* Ensure the height adjusts automatically */
 }
 
+.banner nav {
+    flex-grow: 1; /* Allow the navigation to grow and occupy available space */
+    text-align: right; /* Align navigation links to the right */
+}
+
 .banner nav ul {
     list-style: none; /* Remove default list style */
     margin: 0; /* Remove default margin */
