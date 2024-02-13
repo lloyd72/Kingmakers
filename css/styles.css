@@ -6,56 +6,30 @@ body, h1, h2, h3, p, ul, li {
 
 /* Basic styling for header */
 header {
-    background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Gold gradient */
-    height: 0.30in; /* Set header height to 0.25 inches */
+    background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Shiny gold gradient */
+    height: 0.35in; /* Set header height to 0.25 inches */
     color: #fff;
     font-family: Arial, sans-serif; /* Use a sans-serif font */
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex; /* Align logo and nav horizontally */
-    justify-content: space-between; /* Distribute space evenly */
-    align-items: center; /* Vertically center content */
-}
-
-.logo {
-    display: flex; /* Align logo and text horizontally */
-    align-items: center; /* Vertically center logo and text */
-}
-
-.logo img {
-    height: 50px; /* Adjust logo height */
-    margin-right: 10px; /* Add spacing between logo and text */
-}
-
-h1 {
-    font-size: 18px; /* Adjust font size */
-    font-weight: bold; /* Use bold font weight */
-}
-
-nav ul {
-    margin-left: auto; /* Push navigation to the right */
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold; /* Use bold font weight for navigation links */
 }
 
 /* Styling for banner */
 .banner {
     background-color: black; /* Black color */
     color: #fff;
-    text-align: center;
-    padding: 0.6in 0; /* Set banner height to 0.8 inches */
+    text-align: right; /* Align text to the right */
+    padding: 0.2in 0; /* Set banner height to 0.2 inches */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
+}
+
+.banner nav ul {
+    margin-right: 20px; /* Add margin to the right side of the navigation */
+}
+
+.banner nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.banner nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation item */
 }
