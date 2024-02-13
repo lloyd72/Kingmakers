@@ -6,8 +6,8 @@ body, h1, h2, h3, p, ul, li {
 
 /* Basic styling for header */
 header {
-    background-color: gold; /* Gold color */
-    height: 1in; /* Set header height to 1 inch */
+    background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Gold gradient */
+    height: 0.25in; /* Set header height to 0.25 inches */
     color: #fff;
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
@@ -27,12 +27,12 @@ header {
 }
 
 .logo img {
-    height: 80px; /* Adjust logo height */
+    height: 50px; /* Adjust logo height */
     margin-right: 10px; /* Add spacing between logo and text */
 }
 
 h1 {
-    font-size: 24px; /* Adjust font size */
+    font-size: 18px; /* Adjust font size */
     font-weight: bold; /* Use bold font weight */
 }
 
@@ -53,9 +53,9 @@ nav ul li a {
 
 /* Styling for banner */
 .banner {
-    background-color: black; /* Black background color */
+    background-color: black; /* Black color */
     color: #fff;
     text-align: center;
-    padding: 3in 0; /* Set banner height to 3 inches */
+    padding: 0.8in 0; /* Set banner height to 0.8 inches */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
