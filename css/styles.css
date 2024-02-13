@@ -16,21 +16,19 @@ body, h1, h2, h3, p, ul, li {
 .header2 {
     background-color: #333; /* Darker black color */
     height: 0.8in; /* Set header height to 0.8 inches */
-    position: relative; /* Positioning context for absolute positioning */
+    position: relative; /* Ensure positioning context for child elements */
 }
 
 .container {
     max-width: 1200px; /* Limit the width of the container */
     margin: 0 auto; /* Center the container horizontally */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space elements evenly */
-    align-items: center; /* Align items vertically */
+    position: relative; /* Ensure positioning context for child elements */
 }
 
 nav {
     position: absolute; /* Position navigation absolutely */
-    bottom: 20px; /* Align navigation to the bottom with a small offset */
-    right: 100px; /* Align navigation to the right with a small offset */
+    bottom: 20px; /* Align navigation slightly above the bottom with an offset */
+    right: 20px; /* Align navigation to the right with an offset */
 }
 
 nav ul {
@@ -51,8 +49,9 @@ nav ul li a {
 
 .logo {
     position: absolute; /* Position logo absolutely */
-    top: 0; /* Align logo to the top */
-    left: 0; /* Align logo to the left */
+    top: 50%; /* Align logo vertically in the middle */
+    transform: translateY(-50%); /* Adjust logo position */
+    left: 20px; /* Align logo to the left with an offset */
 }
 
 .logo img {
