@@ -20,20 +20,20 @@ header {
     padding: 0.2in 20px; /* Set banner padding */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
     height: 1in; /* Set banner height to 1 inch */
-}
-
-.banner .container {
-    width: 90%; /* Increase container width */
-    margin: 0 auto;
-    max-width: 1200px;
-    display: flex; /* Align logo and navigation horizontally */
+    display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Spread content horizontally */
     align-items: center; /* Vertically center content */
 }
 
+.banner .logo {
+    flex-shrink: 0; /* Prevent logo from shrinking */
+    margin-right: 20px; /* Add margin to the right of the logo */
+}
+
 .banner .logo img {
-    width: 150px; /* Set the width of the logo */
+    width: 100%; /* Set the width of the logo to fill its container */
     height: auto; /* Ensure the height adjusts automatically */
+    max-width: 150px; /* Set maximum width of the logo */
 }
 
 .banner nav ul {
