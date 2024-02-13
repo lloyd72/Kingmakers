@@ -14,7 +14,7 @@ header {
 
 /* Styling for banner */
 .banner {
-    background-color: black; /* Black color */
+    background-color: #333; /* Darker black color */
     color: #fff;
     text-align: right; /* Align text to the right */
     padding: 0.2in 0; /* Set banner height to 0.2 inches */
@@ -22,11 +22,11 @@ header {
 }
 
 .banner .container {
-    width: 80%;
+    width: 90%; /* Increase container width */
     margin: 0 auto;
     max-width: 1200px;
     display: flex; /* Align logo and navigation horizontally */
-    justify-content: flex-end; /* Align content to the right */
+    justify-content: space-between; /* Align content to the right */
     align-items: center; /* Vertically center content */
 }
 
@@ -35,7 +35,7 @@ header {
 }
 
 .banner nav ul {
-    margin-left: 20px; /* Add margin to the left of the navigation */
+    margin-left: auto; /* Push navigation to the right */
 }
 
 .banner nav ul li {
