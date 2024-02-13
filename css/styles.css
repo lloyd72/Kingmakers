@@ -26,7 +26,7 @@ header {
     margin: 0 auto;
     max-width: 1200px;
     display: flex; /* Align logo and navigation horizontally */
-    justify-content: space-between; /* Align content to the right */
+    justify-content: space-between; /* Spread content horizontally */
     align-items: center; /* Vertically center content */
 }
 
