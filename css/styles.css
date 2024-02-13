@@ -19,7 +19,7 @@ header {
     text-align: right; /* Align text to the right */
     padding: 0.2in 20px; /* Set banner padding */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
-    height: 1in; /* Set banner height to 1 inch */
+    height: 0.80in; /* Set banner height to 1 inch */
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Spread content horizontally */
     align-items: center; /* Vertically center content */
