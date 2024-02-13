@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 /* Basic styling for header */
 header {
     background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Gold gradient */
-    height: 0.25in; /* Set header height to 0.25 inches */
+    height: 0.30in; /* Set header height to 0.25 inches */
     color: #fff;
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
@@ -56,6 +56,6 @@ nav ul li a {
     background-color: black; /* Black color */
     color: #fff;
     text-align: center;
-    padding: 0.8in 0; /* Set banner height to 0.8 inches */
+    padding: 0.6in 0; /* Set banner height to 0.8 inches */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
