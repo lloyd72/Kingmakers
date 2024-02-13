@@ -19,6 +19,7 @@ header {
     text-align: right; /* Align text to the right */
     padding: 0.2in 0; /* Set banner height to 0.2 inches */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
+    height: 1in; /* Set banner height to 1 inch */
 }
 
 .banner .container {
@@ -31,7 +32,7 @@ header {
 }
 
 .banner .logo img {
-    margin-right: auto; /* Push logo to the left */
+    margin-right: 20px; /* Add spacing between logo and navigation */
 }
 
 .banner nav ul {
