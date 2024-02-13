@@ -30,7 +30,7 @@ header {
     align-items: center; /* Vertically center content */
 }
 
-.banner .logo {
+.banner .logo img {
     margin-right: auto; /* Push logo to the left */
 }
 
