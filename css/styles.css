@@ -49,7 +49,7 @@ nav ul li a {
 
 .logo {
     position: absolute; /* Position logo absolutely */
-    top: 50%; /* Align logo vertically in the middle */
+    top: 700%; /* Align logo vertically in the middle */
     transform: translateY(-50%); /* Adjust logo position */
     left: 20px; /* Align logo to the left with an offset */
 }
