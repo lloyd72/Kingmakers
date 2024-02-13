@@ -26,7 +26,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 nav {
-    position: absolute; /* Position navigation absolutely */
+    position: right; /* Position navigation absolutely */
     bottom: 20px; /* Align navigation slightly above the bottom with an offset */
     right: 20px; /* Align navigation to the right with an offset */
 }
