@@ -51,7 +51,7 @@ nav {
 /* Adjusted size for the logo */
 .logo img {
     max-width: 150px; /* Set the maximum width of the logo */
-    max-height: 100%; /* Set the maximum height of the logo */
+    max-height: 80%; /* Set the maximum height of the logo */
     height: auto; /* Allow the height to adjust automatically */
 }
 
