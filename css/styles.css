@@ -16,11 +16,22 @@ header {
     margin: 0 auto;
     max-width: 1200px;
     display: flex; /* Added to align logo and nav horizontally */
+    justify-content: space-between; /* Added to distribute space evenly */
     align-items: center; /* Added to vertically center content */
 }
 
-header img {
+.logo {
+    display: flex; /* Added to align logo and text horizontally */
+    align-items: center; /* Added to vertically center logo and text */
+}
+
+.logo img {
     height: 80%; /* Adjust logo height */
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+h1 {
+    font-size: 24px; /* Adjust font size */
 }
 
 nav ul {
