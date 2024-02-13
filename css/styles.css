@@ -4,14 +4,6 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
-/* Basic styling for header */
-header {
-    background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Shiny gold gradient */
-    height: 0.35in; /* Set header height to 0.25 inches */
-    color: #fff;
-    font-family: Arial, sans-serif; /* Use a sans-serif font */
-}
-
 /* Styling for banner */
 .banner {
     background-color: black; /* Black color */
@@ -21,8 +13,21 @@ header {
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
 
+.banner .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex; /* Align logo and navigation horizontally */
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center; /* Vertically center content */
+}
+
+.banner .logo {
+    margin-right: auto; /* Push logo to the left */
+}
+
 .banner nav ul {
-    margin-right: 20px; /* Add margin to the right side of the navigation */
+    margin-left: 20px; /* Add margin to the left of the navigation */
 }
 
 .banner nav ul li {
