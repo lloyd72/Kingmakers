@@ -1,62 +1,32 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Makers Chapel (Miracle Dome)</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header1">
+        <!-- Header 1 content goes here if needed -->
+    </header>
+    <header class="header2">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Testimonies</a></li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <img src="images/church-logo.png" alt="Church Logo">
+            </div>
+        </div>
+    </header>
 
-/* Basic styling for header 1 */
-.header1 {
-    background: linear-gradient(to right, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.7)); /* Shiny gold gradient */
-    height: 0.25in; /* Set header height to 0.25 inches */
-    color: #fff;
-    font-family: Arial, sans-serif; /* Use a sans-serif font */
-}
+    <!-- Add more sections and content here -->
 
-/* Basic styling for header 2 */
-.header2 {
-    background-color: #333; /* Darker black color */
-    height: 0.8in; /* Set header height to 0.8 inches */
-    position: relative; /* Ensure positioning context for child elements */
-}
-
-.container {
-    max-width: 1200px; /* Limit the width of the container */
-    margin: 0 auto; /* Center the container horizontally */
-    position: relative; /* Ensure positioning context for child elements */
-}
-
-nav {
-    position: absolute; /* Position navigation absolutely */
-    bottom: 10px; /* Align navigation slightly above the bottom with an offset */
-    right: 10px; /* Align navigation to the right with an offset */
-    z-index: 1; /* Ensure navigation is above other content */
-}
-
-nav ul {
-    list-style: none; /* Remove bullet points from list */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-}
-
-nav ul li {
-    display: inline; /* Display list items inline */
-    margin-left: 20px; /* Add spacing between list items */
-}
-
-nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #fff; /* Change link color */
-}
-
-.logo {
-    position: absolute; /* Position logo absolutely */
-    top: 50%; /* Align logo vertically in the middle */
-    transform: translateY(-50%); /* Adjust logo position */
-    left: 20px; /* Align logo to the left with an offset */
-    z-index: 0; /* Ensure logo is below other content */
-}
-
-.logo img {
-    width: 100px; /* Set the width of the logo */
-    height: auto; /* Ensure the height adjusts automatically */
-}
+    <script src="scripts.js"></script>
+</body>
+</html>
