@@ -18,13 +18,15 @@ header {
     color: #fff;
     padding: 0.2in 20px; /* Set banner padding */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
-    height: 1in; /* Set banner height to 1 inch */
+    height: 0.90in; /* Set banner height to 1 inch */
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Spread content horizontally */
 }
 
-.banner .logo {
-    flex: 1; /* Let the logo grow to occupy remaining space */
+.banner .logo img {
+    width: 150px; /* Set the width of the logo */
+    height: auto; /* Ensure the height adjusts automatically */
 }
 
 .banner nav ul {
