@@ -12,8 +12,17 @@ body, h1, h2, h3, p, ul, li {
     font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
 
+/* Basic styling for header 2 */
+.header2 {
+    background-color: #333; /* Darker black color */
+    height: 0.8in; /* Set header height to 0.8 inches */
+    position: relative; /* Ensure positioning context for child elements */
+    color: #fff; /* Set text color to white */
+}
+
 /* Centered church name */
-text-align: center;
+.church-name {
+    text-align: center;
     position: relative; /* Ensure positioning context */
     z-index: 1; /* Set a higher z-index to ensure it appears in front */
 }
@@ -22,14 +31,6 @@ text-align: center;
 .church-name h1 {
     font-weight: bold;
     font-family: Arial, sans-serif; /* Use a different font family */
-}
-
-/* Basic styling for header 2 */
-.header2 {
-    background-color: #333; /* Darker black color */
-    height: 0.8in; /* Set header height to 0.8 inches */
-    position: relative; /* Ensure positioning context for child elements */
-    color: #fff; /* Set text color to white */
 }
 
 /* Adjusted position for navigation */
@@ -45,6 +46,13 @@ nav {
     top: 50%;
     transform: translateY(-50%);
     left: 20px; /* Adjust as needed */
+}
+
+/* Adjusted size for the logo */
+.logo img {
+    max-width: 150px; /* Set the maximum width of the logo */
+    max-height: 100%; /* Set the maximum height of the logo */
+    height: auto; /* Allow the height to adjust automatically */
 }
 
 /* Additional styles for navigation links */
@@ -64,4 +72,3 @@ nav ul li a {
     color: #fff;
     font-family: Arial, sans-serif; /* Use a different font family */
 }
-
