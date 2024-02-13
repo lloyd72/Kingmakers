@@ -22,14 +22,15 @@ body, h1, h2, h3, p, ul, li {
 .container {
     max-width: 1200px; /* Limit the width of the container */
     margin: 0 auto; /* Center the container horizontally */
-    position: relative; /* Ensure positioning context for child elements */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Align items vertically */
 }
 
 nav {
-    position: absolute; /* Position navigation absolutely */
-    bottom: 10px; /* Align navigation slightly above the bottom with an offset */
-    right: 10px; /* Align navigation to the right with an offset */
-    z-index: 1; /* Ensure navigation is above other content */
+    /* Position navigation relatively within header 2 */
+    position: relative;
+    z-index: 1; /* Ensure navigation appears above other elements */
 }
 
 nav ul {
@@ -49,11 +50,11 @@ nav ul li a {
 }
 
 .logo {
-    position: absolute; /* Position logo absolutely */
-    button: 30%; /* Align logo vertically in the middle */
-    transform: translateY(-50%); /* Adjust logo position */
-    left: 20px; /* Align logo to the left with an offset */
-    z-index: 0; /* Ensure logo is below other content */
+    /* Position logo absolutely within header 2 */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px; /* Align logo to the right */
 }
 
 .logo img {
