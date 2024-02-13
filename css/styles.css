@@ -27,8 +27,9 @@ body, h1, h2, h3, p, ul, li {
 
 nav {
     position: absolute; /* Position navigation absolutely */
-    bottom: 20px; /* Align navigation slightly above the bottom with an offset */
-    right: 20px; /* Align navigation to the right with an offset */
+    bottom: 10px; /* Align navigation slightly above the bottom with an offset */
+    right: 10px; /* Align navigation to the right with an offset */
+    z-index: 1; /* Ensure navigation is above other content */
 }
 
 nav ul {
@@ -52,6 +53,7 @@ nav ul li a {
     top: 50%; /* Align logo vertically in the middle */
     transform: translateY(-50%); /* Adjust logo position */
     left: 20px; /* Align logo to the left with an offset */
+    z-index: 0; /* Ensure logo is below other content */
 }
 
 .logo img {
