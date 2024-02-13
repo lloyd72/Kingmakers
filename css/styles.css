@@ -50,7 +50,7 @@ nav {
 
 /* Adjusted size for the logo */
 .logo img {
-    max-width: 150px; /* Set the maximum width of the logo */
+    max-width: 100px; /* Set the maximum width of the logo */
     height: 50%; /* Set the maximum height of the logo */
     height: auto; /* Allow the height to adjust automatically */
 }
