@@ -21,17 +21,7 @@ header {
     height: 0.90in; /* Set banner height to 0.90 inches */
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Vertically center content */
-    justify-content: space-between; /* Spread content horizontally */
-}
-
-.banner .logo img {
-    max-width: 150px; /* Set the maximum width of the logo */
-    height: auto; /* Ensure the height adjusts automatically */
-}
-
-.banner nav {
-    flex-grow: 1; /* Allow the navigation to grow and occupy available space */
-    text-align: right; /* Align navigation links to the right */
+    justify-content: center; /* Center content horizontally */
 }
 
 .banner nav ul {
