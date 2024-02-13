@@ -21,19 +21,19 @@ header {
     height: 0.90in; /* Set banner height to 0.90 inches */
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Vertically center content */
-    justify-content: center; /* Center content horizontally */
+    justify-content: space-between; /* Spread content horizontally */
 }
 
 .banner nav ul {
     list-style: none; /* Remove default list style */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    text-align: center; /* Center align navigation links */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center content */
 }
 
 .banner nav ul li {
-    display: inline;
-    margin-left: 20px;
+    margin-left: 20px; /* Add spacing between navigation items */
 }
 
 .banner nav ul li:first-child {
