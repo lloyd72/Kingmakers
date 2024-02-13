@@ -51,7 +51,7 @@ nav ul li a {
     position: absolute; /* Position logo absolutely */
     top: 50%; /* Align logo vertically in the middle */
     transform: translateY(-50%); /* Adjust logo position */
-    left: 20px; /* Align logo to the left with an offset */
+    right: 20px; /* Align logo to the right with an offset */
 }
 
 .logo img {
