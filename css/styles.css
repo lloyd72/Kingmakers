@@ -17,7 +17,7 @@ header {
     background-color: #333; /* Darker black color */
     color: #fff;
     text-align: right; /* Align text to the right */
-    padding: 0.2in 0; /* Set banner height to 0.2 inches */
+    padding: 0.2in 20px; /* Set banner padding */
     font-family: Arial, sans-serif; /* Use a sans-serif font */
     height: 1in; /* Set banner height to 1 inch */
 }
@@ -32,25 +32,18 @@ header {
 }
 
 .banner .logo img {
-    width: auto; /* Ensure the logo's width adjusts automatically */
-    max-width: 200px; /* Set the maximum width of the logo */
-    height: auto; /* Ensure the logo's height adjusts automatically */
-    max-height: 80%; /* Set the maximum height of the logo */
-    margin-right: 20px; /* Add some spacing between the logo and navigation */
-    margin-left: 20px; /* Add some spacing between the left edge of the black section and the logo */
+    width: 150px; /* Set the width of the logo */
+    height: auto; /* Ensure the height adjusts automatically */
 }
 
 .banner nav ul {
-    margin-left: auto; /* Push navigation to the right */
+    list-style: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
 }
 
 .banner nav ul li {
     display: inline;
     margin-left: 20px;
-}
-
-.banner nav ul li:first-child {
-    margin-left: 0; /* Remove margin from the first navigation item */
 }
 
 .banner nav ul li:last-child {
