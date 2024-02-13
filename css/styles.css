@@ -20,7 +20,7 @@ body, h1, h2, h3, p, ul, li {
     height: 0.8in; /* Set header height to 0.8 inches */
     color: #fff;
     font-family: Arial, sans-serif; /* Use a sans-serif font */
-    padding: 20px 30px 20px 0; /* Add padding to the header (top, right, bottom, left) */
+    padding: 20px 30px; /* Add padding to the header */
     position: relative; /* Set position to relative for absolute positioning */
 }
 
@@ -45,8 +45,8 @@ nav ul li {
 
 .header2 nav ul {
     position: absolute; /* Set position to absolute */
-    bottom: 10px; /* Align slightly above the bottom */
-    right: 40px; /* Align slightly to the right */
+    bottom: 20px; /* Adjust bottom positioning */
+    right: 30px; /* Adjust right positioning */
 }
 
 .header2 nav ul li {
@@ -67,5 +67,6 @@ nav ul li {
 }
 
 .logo img {
-    max-height: 100%; /* Ensure the logo height fits within the header height */
+    height: 100%; /* Ensure the logo height fits within the header height */
+    width: auto; /* Ensure the logo width adjusts automatically */
 }
