@@ -27,6 +27,8 @@ header {
 .banner nav ul {
     list-style: none; /* Remove default list style */
     margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align navigation links */
 }
 
 .banner nav ul li {
