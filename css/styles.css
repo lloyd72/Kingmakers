@@ -32,7 +32,9 @@ header {
 }
 
 .banner .logo img {
-    margin-right: 20px; /* Add spacing between logo and navigation */
+    max-width: 100%; /* Ensure the logo doesn't exceed the width of its container */
+    max-height: 80%; /* Set the maximum height of the logo */
+    margin-right: auto; /* Push logo to the left */
 }
 
 .banner nav ul {
