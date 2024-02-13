@@ -4,6 +4,14 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+/* Basic styling for header */
+header {
+    background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Shiny gold gradient */
+    height: 0.25in; /* Set header height to 0.25 inches */
+    color: #fff;
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+}
+
 /* Styling for banner */
 .banner {
     background-color: black; /* Black color */
