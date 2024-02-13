@@ -63,10 +63,7 @@ nav ul li {
 .logo {
     position: absolute; /* Set position to absolute */
     top: 20px; /* Adjust top positioning */
-    right: 30px; /* Adjust right positioning */
-}
-
-.logo img {
+    left: 30px; /* Adjust left positioning */
     height: 100%; /* Ensure the logo height fits within the header height */
     width: auto; /* Ensure the logo width adjusts automatically */
 }
