@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Basic styling for header */
 header {
-    background: linear-gradient(to right, rgba(255,215,0,0.9), rgba(255,215,0,0.7)); /* Shiny gold gradient */
+    background: linear-gradient(to right, rgba(255, 215, 0, 0.9), rgba(255, 215, 0, 0.7)); /* Shiny gold gradient */
     height: 0.25in; /* Set header height to 0.25 inches */
     color: #fff;
     font-family: Arial, sans-serif; /* Use a sans-serif font */
@@ -42,6 +42,10 @@ header {
 .banner nav ul li {
     display: inline;
     margin-left: 20px;
+}
+
+.banner nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first navigation item */
 }
 
 .banner nav ul li:last-child {
