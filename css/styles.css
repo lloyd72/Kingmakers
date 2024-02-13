@@ -13,8 +13,9 @@ body, h1, h2, h3, p, ul, li {
 }
 
 /* Centered church name */
-.church-name {
-    text-align: center;
+text-align: center;
+    position: relative; /* Ensure positioning context */
+    z-index: 1; /* Set a higher z-index to ensure it appears in front */
 }
 
 /* Church name styling */
