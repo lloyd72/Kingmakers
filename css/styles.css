@@ -3,11 +3,10 @@
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
-  /* Responsive CSS rules for small screens */
   .code-block {
     width: 100%; /* Adjust width to 100% for small screens */
     overflow-x: auto; /* Enable horizontal scrolling if needed */
-    font-size: 14px; /* Adjust font size for small screens */
+    font-size: 12px; /* Adjust font size for small screens */
     padding: 10px; /* Add padding to code blocks for better spacing */
   }
 }
