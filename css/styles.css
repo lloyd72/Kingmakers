@@ -1,14 +1,43 @@
-/* CSS styles for desktop/laptop screens */
-/* Other CSS styles */
+@-ms-viewport {
+    width: device-width;
+}
 
-/* Responsive styles for smaller screens */
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #ffffff;
+    height: 100%;
+    min-width: 320px;
+}
+
+body.is-preload *,
+body.is-preload *:before,
+body.is-preload *:after {
+    -moz-animation: none !important;
+    -webkit-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    transition: none !important;
+}
+
+/* Responsive styles for code blocks */
 @media (max-width: 768px) {
-  .code-block {
-    width: 100%; /* Adjust width to 100% for small screens */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
-    font-size: 12px; /* Adjust font size for small screens */
-    padding: 10px; /* Add padding to code blocks for better spacing */
-  }
+    .code-block {
+        width: 100%; /* Adjust width to 100% for small screens */
+        font-size: 14px; /* Adjust font size for small screens */
+        padding: 10px; /* Add padding to code blocks for better spacing */
+        margin: 10px 0; /* Add margins to separate code blocks */
+    }
 }
 
 /* Reset default margin and padding */
