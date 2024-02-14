@@ -22,7 +22,6 @@ body, h1, h2, h3, p, ul, li {
 
 /* Centered church name */
 .church-name {
-    text-align: center;
     position: relative; /* Ensure positioning context */
     bottom: 30px:
     left: 60px:
