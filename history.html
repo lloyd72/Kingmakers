@@ -8,14 +8,49 @@
     <style>
         /* Define banner style */
         .banner {
-            height: 2in; /* Set height to 3 inches */
-            overflow: hidden; /* Hide overflow content */
+            background-image: url('images/banner.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire container */
+            background-position: center; /* Center the background image */
+            height: 300px; /* Set height of the banner */
+            margin: 20px 0; /* Add margin for space at the edges */
         }
 
-        /* Define banner image style */
-        .banner img {
-            width: 80%; /* Ensure image covers entire width */
-            height: auto; /* Maintain aspect ratio */
+        /* Style for the "Our History" label */
+        .our-history-label {
+            font-size: 18px; /* Set font size */
+            font-weight: normal; /* Set font weight to normal */
+        }
+
+        /* Style for the related topics section */
+        .related-topics {
+            float: right; /* Align to the right */
+            width: 200px; /* Set width */
+            padding: 20px; /* Add padding */
+            background-color: #f0f0f0; /* Background color */
+        }
+
+        .related-topics h3 {
+            font-size: 16px; /* Set font size */
+            margin-bottom: 10px; /* Add margin bottom */
+        }
+
+        .related-topics ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0; /* Remove default padding */
+        }
+
+        .related-topics li {
+            margin-bottom: 10px; /* Add margin bottom */
+        }
+
+        .related-topics li a {
+            text-decoration: none; /* Remove underline */
+            color: #333; /* Set text color */
+            font-size: 14px; /* Set font size */
+        }
+
+        .related-topics li a:hover {
+            text-decoration: underline; /* Underline on hover */
         }
     </style>
 </head>
@@ -56,8 +91,25 @@
     </header>
 
     <!-- Banner -->
-    <div class="banner">
-        <img src="images/banner.jpg" alt="History Banner">
+    <div class="banner"></div>
+
+    <!-- Our History label -->
+    <div class="our-history-label">
+        <p>| Our History</p>
+    </div>
+
+    <!-- Related Topics section -->
+    <div class="related-topics">
+        <h3>Related Topics</h3>
+        <ul>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Church Services</a></li>
+            <li><a href="#">Our Message</a></li>
+            <li><a href="#">Our Philosophy</a></li>
+            <li><a href="#">Statement of Faith</a></li>
+            <li><a href="#">Vision of KMC</a></li>
+            <li><a href="#">Godson Frimpong</a></li>
+        </ul>
     </div>
 
     <!-- History content -->
