@@ -73,3 +73,28 @@ nav ul li a {
     color: #fff;
     font-family: Arial, sans-serif; /* Use a different font family */
 }
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #fff;
+}
+
+.dropdown-content p {
+    margin-bottom: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
