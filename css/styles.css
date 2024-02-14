@@ -22,10 +22,10 @@ body, h1, h2, h3, p, ul, li {
 
 /* Centered church name */
 .church-name {
-    position: relative; /* Ensure positioning context */
-    bottom: 30px:
-    center: 50px:
-    z-index: 1; /* Set a higher z-index to ensure it appears in front */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(40px + 110px); /* Adjust as needed to position it next to the logo */
 }
 
 /* Church name styling */
