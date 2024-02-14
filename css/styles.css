@@ -1,3 +1,16 @@
+/* CSS styles for desktop/laptop screens */
+
+/* Other CSS styles */
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  /* Responsive CSS rules for small screens */
+  .code-block {
+    width: 100%; /* Adjust width to 100% for small screens */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+}
+
 /* Reset default margin and padding */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
