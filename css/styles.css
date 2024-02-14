@@ -24,7 +24,7 @@ body, h1, h2, h3, p, ul, li {
 .church-name {
     position: relative; /* Ensure positioning context */
     bottom: 30px:
-    center: 60px:
+    center: 50px:
     z-index: 1; /* Set a higher z-index to ensure it appears in front */
 }
 
