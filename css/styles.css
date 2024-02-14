@@ -1,5 +1,4 @@
 /* CSS styles for desktop/laptop screens */
-
 /* Other CSS styles */
 
 /* Responsive styles for smaller screens */
@@ -8,6 +7,8 @@
   .code-block {
     width: 100%; /* Adjust width to 100% for small screens */
     overflow-x: auto; /* Enable horizontal scrolling if needed */
+    font-size: 14px; /* Adjust font size for small screens */
+    padding: 10px; /* Add padding to code blocks for better spacing */
   }
 }
 
